@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "fakestagram backend server",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint --ignore-pattern *.test.js .",
+    "start": "node server.js",
+    "test": "jest --coverage --runInBand"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "Kyrie Dowling",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.445.0",
+    "@aws-sdk/lib-storage": "^3.445.0",
+    "aws-sdk": "^2.1490.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.2.0",
+    "supertest": "^6.3.1",
+    "ws": "^7.5.9"
+  }
+}
