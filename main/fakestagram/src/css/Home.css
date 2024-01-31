@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&family=Philosopher&family=Poppins&display=swap');
+
+.home{
+    height: 100vh; 
+    /* overflow-y: hidden; */
+}
+
+
+.home-page-posts {
+    position: relative;
+    top:8vh;
+    left:15vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* flex-direction: column; */
+    width:80%;
+    height:91%;
+    /* overflow-y: none; */
+}
+
+.not-followed-posts{
+    position: relative;
+    left:10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid #cfc9c9; */
+    /* border-radius:10px; */
+    width:46%;
+    height:100%;
+    /* overflow-y: scroll; */
+}
+
+/* .scroller{
+    width:100%;
+    position: relative;
+} */
+
+.followed-posts
+{
+    position: relative;
+    left:8vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid #cfc9c9; */
+    /*border-radius:10px; */
+    width: 46%;
+    height:100%;
+    /* overflow-y: scroll; */
+}
+
+.post-text-head
+{
+    padding:10px;
+    border-radius:10px;
+    background-color: blue;
+    color:white;
+    font-family: 'Pavanam', serif;
+    width:60%;
+    position: relative;
+    right:1vw;
+}
+

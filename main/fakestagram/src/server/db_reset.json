@@ -1,0 +1,291 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "user0",
+      "fullname": "Paula Thiel",
+      "email": "Paula_Thiel@example.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/854.jpg",
+      "password": "abc",
+      "followers": [
+        "user2",
+        "user1"
+      ],
+      "following": [
+        "user0",
+        "user1",
+        "user2"
+      ]
+    },
+    {
+      "id": 1,
+      "username": "user1",
+      "fullname": "Saul Morar",
+      "email": "Saul35@example.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+      "password": "abc",
+      "followers": [
+        "user1",
+        "user3"
+      ],
+      "following": [
+        "user5",
+        "user3",
+        "user0"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "fullname": "Aaliyah Hintz",
+      "email": "Aaliyah.Hintz@example.net",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/693.jpg",
+      "password": "abc",
+      "followers": [
+        "user5",
+        "user4"
+      ],
+      "following": [
+        "user1",
+        "user5",
+        "user3"
+      ]
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "fullname": "Dianna Jones",
+      "email": "Dianna.Jones42@example.net",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/42.jpg",
+      "password": "abc",
+      "followers": [
+        "user4",
+        "user3"
+      ],
+      "following": [
+        "user1",
+        "user2",
+        "user5"
+      ]
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "fullname": "Colten Torp",
+      "email": "Colten.Torp64@example.net",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/971.jpg",
+      "password": "abc",
+      "followers": [
+        "user4",
+        "user5"
+      ],
+      "following": [
+        "user1",
+        "user0",
+        "user3"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 0,
+      "postedBy": "user0",
+      "media": "https://loremflickr.com/640/480?lock=7548492603981824",
+      "description": "Aurum confugo vulticulus aufero paulatim thermae volubilis tepidus delibero.",
+      "likedBy": [
+        "user0",
+        "user1"
+      ],
+      "comments": [
+        {
+        "username": "user1",
+        "text": "Templum thalassinus carcer cuius."
+        },
+        {
+        "username": "user3",
+        "text": "Absum voluntarius colo et voro."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "postedBy": "user1",
+      "media": "https://loremflickr.com/640/480?lock=3874144246562816",
+      "description": "Annus vacuus tersus accendo nulla compello desipio apto subvenio casso. Velum ab soleo.",
+      "likedBy": [
+        "user0",
+        "user1"
+      ],
+      "comments": [
+        {
+        "username": "user2",
+        "text": "Aequus creptio adiuvo labore triduana antiquus vereor sponte deinde quos."
+        },
+        {
+        "username": "user1",
+        "text": "Ullus terga cohors validus ventito crepusculum spes."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "postedBy": "user2",
+      "media": "https://loremflickr.com/640/480?lock=6953006434091008",
+      "description": "Voro ex color auctor cultura decor. Comes placeat solio adhaero corroboro. Repellat suscipit tabula vespillo caterva.",
+      "likedBy": [
+        "user4",
+        "user2"
+      ],
+      "comments": [
+        {
+        "username": "user0",
+        "text": "Tener verecundia tabgo nam ab canto abundans admoveo corona."
+        },
+        {
+        "username": "user1",
+        "text": "Tempora depulso tot."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "postedBy": "user3",
+      "media": "https://loremflickr.com/640/480?lock=7551987799293952",
+      "description": "Voluptatibus versus suscipio umerus exercitationem valetudo aeger.",
+      "likedBy": [
+        "user5",
+        "user3"
+      ],
+      "comments": [
+        {
+        "username": "user0",
+        "text": "Thesaurus adsidue pecco velum venustas annus vetus sortitus supra."
+        },
+        {
+        "username": "user0",
+        "text": "Solio autus sophismata cubo tamisium aperiam atrocitas delinquo vigilo."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "postedBy": "user4",
+      "media": "https://loremflickr.com/640/480?lock=1457964600786944",
+      "description": "Trans debilito brevis considero ab ratione.",
+      "likedBy": [
+        "user5",
+        "user1"
+      ],
+      "comments": [
+        {
+        "username": "user0",
+        "text": "Vulpes viriliter conculco dens."
+        },
+        {
+        "username": "user4",
+        "text": "Repellendus speciosus ver cupiditas consequuntur campana pectus vito trado."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "postedBy": "user0",
+      "media": "https://loremflickr.com/640/480?lock=1353059647094784",
+      "description": "Colligo civis pax capio adipiscor aegre voluntarius.",
+      "likedBy": [
+        "user0",
+        "user2"
+      ],
+      "comments": [
+        {
+        "username": "user0",
+        "text": "Sustineo vel vergo stillicidium crustulum peccatus auctus."
+        },
+        {
+        "username": "user5",
+        "text": "Tempus tredecim confero coniecto coerceo argumentum subiungo cimentarius."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "postedBy": "user1",
+      "media": "https://loremflickr.com/640/480?lock=2892517454381056",
+      "description": "Succurro aveho candidus deficio audeo cibus. Aperte coerceo absens pectus sufficio vere facere defero consectetur. Delectus verecundia vesica charisma velum antepono.",
+      "likedBy": [
+        "user4",
+        "user5"
+      ],
+      "comments": [
+        {
+        "username": "user1",
+        "text": "Aperiam repellendus sequi sophismata."
+        },
+        {
+        "username": "user4",
+        "text": "Venio commodi amoveo vociferor ubi."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "postedBy": "user2",
+      "media": "https://loremflickr.com/640/480?lock=3086201961578496",
+      "description": "Admitto veritatis tertius volup cuius adfero voluptas. Vetus rerum thorax. Derideo absque incidunt ventosus tego subito qui.",
+      "likedBy": [
+        "user2",
+        "user1"
+      ],
+      "comments": [
+        {
+        "username": "user3",
+        "text": "Surgo sumptus aut amicitia copiose iste attonbitus."
+        },
+        {
+        "username": "user2",
+        "text": "Amoveo officiis anser ager."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "postedBy": "user3",
+      "media": "https://loremflickr.com/640/480?lock=6750726971719680",
+      "description": "Adulescens hic iste modi contabesco solitudo viscus tremo casso. Canonicus caute suadeo tego desipio.",
+      "likedBy": [
+        "user1",
+        "user5"
+      ],
+      "comments": [
+        {
+        "username": "user3",
+        "text": "Talio corporis comparo."
+        },
+        {
+        "username": "user5",
+        "text": "Tam corporis dapifer."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "postedBy": "user4",
+      "media": "https://loremflickr.com/640/480?lock=5593465100435456",
+      "description": "Defleo amoveo convoco tricesimus bis aiunt traho vociferor amet autus. Crustulum despecto cunabula uterque peccatus claro vel.",
+      "likedBy": [
+        "user3",
+        "user1"
+      ],
+      "comments": [
+        {
+        "username": "user1",
+        "text": "Aestus dicta tenuis certus minima vomica deripio viduo."
+        },
+        {
+        "username": "user3",
+        "text": "Celebrer ratione veniam ea aperte."
+        }
+      ]
+    }
+  ]
+}

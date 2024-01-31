@@ -1,0 +1,11 @@
+{
+    "/user/:username": "/users?username=:username",
+    "/posts/:postedBy": "/posts?postedBy=:postedBy",
+    "/user/:username/follow": "/users?username=:username",
+    "/user/:username/unfollow": "/users?username=:username",
+    "/posts/:id/like": "/posts/:id",
+    "/posts/:id/unlike": "/posts/:id",
+    "/post/:username": "/posts",
+    "/post/:id/comment": "/posts/:id",
+    "/user": "/users"
+}
